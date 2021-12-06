@@ -1,0 +1,42 @@
+page {
+  background-color: grey;
+}
+
+movable-area {
+  width: calc(100vw - 128rpx);
+  height: 144rpx;
+}
+
+movable-view {
+  width: 100vw;
+  height: 144rpx;
+}
+
+.messageItem {
+  position: relative;
+  padding: 24rpx 32rpx;
+  background: white;
+}
+
+.messageTitle {
+  margin-bottom: 24rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+
+.messageTime {
+  font-size: 22rpx;
+}
+
+.messageDelete {
+  position: absolute;
+  right: -128rpx;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128rpx;
+  height: 100%;
+  background: red;
+}
